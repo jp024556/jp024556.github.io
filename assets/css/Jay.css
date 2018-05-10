@@ -100,6 +100,9 @@
       .left-panel p{
         text-align: center;
       }
+     .social-contact li a{
+        padding: 10px!important;
+      }
     }
     .right-panel .intro-img img{
       width: 200px;
