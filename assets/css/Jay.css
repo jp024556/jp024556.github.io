@@ -1,0 +1,176 @@
+ body{
+      font-family: "Montserrat", sans-serif;
+      font-size: 17px;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    .main-container{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .left-panel{
+      width: 37%;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box;
+      background: #75b5aa;
+      color: #fff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+    .right-panel{
+      width: 63%;
+      float: right;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .left-panel .title{
+      display: block;
+      font-family: "Montserrat", sans-serif;
+      font-size: 70px;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    .left-panel .lead{
+      display: block;
+      font-family: "Montserrat", sans-serif;
+      font-size: 35px;
+      color: #ccc;
+      padding: 20px;
+      margin-top: -60px;
+    }
+    .left-panel a{
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+    }
+    .left-panel a:hover{
+      color: #ccc;
+    }
+    .left-panel ul{
+      list-style: none;
+      padding: 20px;
+      margin-top: -55px;
+    }
+    .left-panel ul li{
+      font-family: Verdana;
+      font-size: 20px;
+      padding: 7px 0;
+    }
+    .social li{
+      margin-top: 30px;
+    }
+    .social li a{
+      background: #fff;
+      color: #75b5aa;
+      border-radius: 50%;
+      padding: 10px;
+      border: 3px solid #fff;
+    }
+    .social li a:hover{
+      background: #75b5aa;
+      color: #fff;
+    }
+    @media only screen and (max-width: 925px) {
+      .left-panel{
+        display: block;
+        width: 100%;
+        text-align: center;
+        position: static;
+        overflow: hidden;
+      }
+       .right-panel{
+        display: block;
+        width: 100%;
+      }
+      .left-panel .title{
+        text-align: center;
+      }
+      .left-panel .lead{
+        text-align: center;
+      }
+      .left-panel .ul{
+        text-align: center;
+      }
+      .left-panel p{
+        text-align: center;
+      }
+    }
+    .right-panel .intro-img img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .right-panel .intro p{
+      font-size: 25px;
+      color: grey;
+      text-align: center;
+    }
+    .right-panel ol li{
+      font-size: 16px;
+      font-weight: bold;
+      padding: 5px;
+    }
+    .right-panel ol li a{
+      text-decoration: none;
+      color: #75b5aa;
+    }
+    .right-panel ol li a:hover{
+      color: grey;
+    }
+    .active{
+      background: teal;
+    }
+    .active a{
+      padding: 5px;
+    }
+    .contact p{
+      font-size: 20px;
+    }
+    .contact code{
+      background: red;
+      color: #fff;
+    }
+    .social-contact li{
+      margin-top: 50px;
+      list-style: none;
+    }
+    .social-contact li a{
+      text-decoration: none;
+      background: #75b5aa;
+      color: #fff;
+      border-radius: 50%;
+      padding: 30px;
+      border: 3px solid #fff;
+      font-size: 30px;
+    }
+    .social-contact li a:hover{
+      background: #75b5aa;
+      color: #fff;
+      border: 3px solid green;
+    }
+    .donate-icon{
+      margin-top: 40px;
+    }
+    .donation a{
+      text-decoration: none;
+      background: #75b5aa;
+      color: #fff;
+      border-radius: 50%;
+      padding: 30px;
+      border: 3px solid #fff;
+      font-size: 30px;
+    }
+    .donation a:hover{
+      background: #75b5aa;
+      color: #fff;
+      border: 3px solid green;
+    }
