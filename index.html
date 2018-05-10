@@ -1,34 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Jay's Portfolio</title>
-	<style>
-		body{
-			overflow-x: hidden;
-		}
-		.main{
-			padding: 10px;
-			margin: 0 auto;
-			background: #fff;
-			font-family: Lucida Sans Ms, Arial, Verdana, Trebuchet Ms;
-			font-size: 17px;
-			width: 100%;
-		}
-		.main p, h2{
-			text-align: center;
-		}
-		.main a{
-			text-decoration: none;
-		}
-	</style>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Jay" />
+  <meta name="description" content="Jay's Personal Website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay Prakash</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/Jay.css" />
 </head>
 <body>
-	<div class="main">
-		<p>Hey, Welcome there !</p>
-		<p>Want to learn about me and my projects, then wait for a while...</p>
-		<h2>Coming soon...</h2>
-		<p>For the time being, pls check out one of my <a href="https://github.com/jp024556">Repository</a></p>
-	</div>
+  <div class="main-container">
+    <div class="left-panel">
+      <h1 class="title"><a href="/">Jay Prakash</a></h1>
+      <p class="lead">Student and software developer</p>
+      <ul>
+        <li><a class="active" onclick="showIntro('introduction', this)">Introduction</a></li>
+        <li><a onclick="showProjects('projects', this)">Projects</a></li>
+        <li><a onclick="showContact('contact', this)">Contact</a></li>
+        <li><a onclick="showDonate('donation', this)">Donate</a></li>
+      </ul>
+      <ul class="social">
+        <li>
+          <a href="mailto:jp024556@gmail.com" title="E-mail me"><i class="fa fa-fw fa-at"></i></a>
+          <a href="https://github.com/jp024556" title="Jay on GitHub"><i class="fa fa-fw fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jay-prakash-946a0b157/" title="Jay Prakash on LinkedIn"><i class="fa fa-fw fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <p class="credits">
+        Copyright <i class="fa fa-copyright"></i> 2018 | Jay Prakash
+      </p>
+    </div>
+    <div class="right-panel">
+      <!-- Introduction -->
+      <div class="introduction">
+        <div class="intro-img">
+          <img src="https://avatars2.githubusercontent.com/u/35718319?s=460&v=4" alt="myImage">
+        </div>
+        <div class="intro">
+          <p>Hey there, My name is Jay Prakash.</p>
+          <p>I am currently pursuing B.Tech from JIS College Of Enginnering(JISCE).</p>
+          <p>I am fond of learning the cool skills and like to watch movies in my leisure time.</p>
+        </div>
+      </div>
+      <!-- Project Details -->
+      <div class="projects">
+        <h3>Projects List:</h3>
+        <ol>
+          <li><a href="#">Geeky MVC Framework(PHP)</a></li>
+          <li><a href="#">JParser</a></li>
+          <li><a href="#">Subtitle Translater</a></li>
+          <li><a href="#">File Translater</a></li>
+        </ol>
+      </div>
+      <!-- Contact -->
+      <div class="contact">
+        <h3>Feel free to contact me:</h3>
+        <p>Send me your regards to: <code>jp024556@gmail.com</code></p>
+        <h3>I am also available on:</h3>
+        <ul class="social-contact">
+        <li>
+          <a href="https://github.com/jp024556" title="Follow me on GitHub"><i class="fa fa-fw fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jay-prakash-946a0b157/" title="Follow me on LinkedIn"><i class="fa fa-fw fa-linkedin"></i></a>
+          <a href="https://facebook.com/jp024556" title="Follow me on FB"><i class="fa fa-fw fa-facebook"></i></a>
+        </li>
+      </ul>
+      </div>
+      <!-- Donate -->
+      <div class="donation">
+        <h3>Donation</h3>
+        <p>If you like my work then, donate some bucks to keep projects live and well maintained.</p>
+        <p class="donate-icon"><a href="https://paypal.me/jp024556" title="Donate via PayPal"><i class="fa fa-fw fa-paypal"></i></a></p>
+      </div>
+    </div>
+  </div>
+<!-- Custom JS -->
+<script src="assets/js/Jay.js"></script>
 </body>
 </html>
