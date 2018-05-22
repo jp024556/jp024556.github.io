@@ -70,3 +70,14 @@ var _i = document.getElementsByClassName("introduction")[0];
       // add 'active' classs to the element that was clicked
       l.classList.add('active');
     }
+
+    //Color toggler
+    var toggler = document.getElementById('toggler');
+    toggler.addEventListener('click', toggleColor);
+    var colors = ['#D2691E', '#556B2F', '#9932CC', '#E9967A', '#FF1493', '#1E90FF', '#191970', '#808000', '#6B8E23', '#4682B4', '#9ACD32'];
+
+    function toggleColor(){
+      var leftPanel = document.getElementsByClassName('left-panel')[0];
+      var color = colors[Math.floor(Math.random()*colors.length)];
+      leftPanel.style.background = color;
+    }
