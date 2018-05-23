@@ -90,4 +90,4 @@ var _i = document.getElementsByClassName("introduction")[0];
     }
 
     //Toggle color on every page reload
-    toggleColor();
+    //toggleColor();
