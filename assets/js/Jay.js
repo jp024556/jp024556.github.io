@@ -74,10 +74,13 @@ var _i = document.getElementsByClassName("introduction")[0];
     //Color toggler
     var toggler = document.getElementById('toggler');
     toggler.addEventListener('click', toggleColor);
-    var colors = ['#D2691E', '#556B2F', '#9932CC', '#E9967A', '#FF1493', '#1E90FF', '#191970', '#808000', '#6B8E23', '#4682B4', '#9ACD32'];
+    var colors = ['#75b5aa', '#D2691E', '#556B2F', '#9932CC', '#1E90FF', '#191970', '#808000', '#6B8E23', '#4682B4', '#0c253f'];
 
     function toggleColor(){
       var leftPanel = document.getElementsByClassName('left-panel')[0];
       var color = colors[Math.floor(Math.random()*colors.length)];
       leftPanel.style.background = color;
     }
+
+    //Toggle color on every page reload
+    toggleColor();
