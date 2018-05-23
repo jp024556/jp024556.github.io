@@ -85,7 +85,7 @@ var _i = document.getElementsByClassName("introduction")[0];
       var h3 = rightPanel.getElementsByTagName('h3');
       h3Length = h3.length;
       for(var i=0; i<h3Length; i++){
-        h3[i].style.background = color;
+        h3[i].style.color = color;
       }
     }
 
