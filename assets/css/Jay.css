@@ -139,8 +139,9 @@
       font-size: 20px;
     }
     .contact code{
-      background: red;
-      color: #fff;
+      border: 1px solid #eee;
+      border-radius: 22px;
+      padding: 3px 7px;
     }
     .social-contact li{
       margin-top: 50px;
@@ -158,7 +159,7 @@
     .social-contact li a:hover{
       background: #75b5aa;
       color: #fff;
-      border: 3px solid green;
+      border: 3px solid #ff6600;
     }
     .donate-icon{
       margin-top: 40px;
