@@ -74,7 +74,7 @@ var _i = document.getElementsByClassName("introduction")[0];
     //Color toggler
     var toggler = document.getElementById('toggler');
     toggler.addEventListener('click', toggleColor);
-    var colors = ['#101010', '#65574E', '#75b5aa', '#24292F', '#556B2F', '#9932CC', '#3b5a77', '#191970', '#808000', '#6B8E23', '#4682B4', '#0c253f'];
+    var colors = ['#555555', '#65574E', '#75b5aa', '#24292F', '#556B2F', '#0C6EFC', '#3b5a77', '#191970', '#808000', '#6B8E23', '#4682B4', '#0c253f'];
 
     function toggleColor(){
       var leftPanel = document.getElementsByClassName('left-panel')[0];
