@@ -153,13 +153,12 @@
       color: #fff;
       border-radius: 50%;
       padding: 30px;
-      border: 3px solid #fff;
+      border: none;
       font-size: 30px;
     }
     .social-contact li a:hover{
-      background: #75b5aa;
+      background: #101010;
       color: #fff;
-      border: 3px solid #ff6600;
     }
     .download-icon{
       margin-top: 40px;
@@ -168,13 +167,12 @@
       text-decoration: none;
       background: #75b5aa;
       color: #fff;
-      border-radius: 50%;
-      padding: 30px;
-      border: 3px solid #fff;
-      font-size: 30px;
+      border-radius: 22px;
+      padding: 10px 15px;
+      border: none;
+      font-size: 1rem;
     }
     .resume a:hover{
-      background: #75b5aa;
+      background: #101010;
       color: #fff;
-      border: 3px solid green;
     }
