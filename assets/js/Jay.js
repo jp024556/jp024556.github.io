@@ -1,7 +1,7 @@
 var _i = document.getElementsByClassName("introduction")[0];
     var _p = document.getElementsByClassName("projects")[0];
     var _c = document.getElementsByClassName("contact")[0];
-    var _d = document.getElementsByClassName("donation")[0];
+    var _d = document.getElementsByClassName("resume")[0];
     _p.style.display = "none";
     _c.style.display = "none";
     _d.style.display = "none";
@@ -55,7 +55,7 @@ var _i = document.getElementsByClassName("introduction")[0];
       l.classList.add('active');
     }
     
-    function showDonate(e, l){
+    function showResume(e, l){
       document.getElementsByClassName(x[0])[0].style.display = "none";
       x.pop();
       x.push(e);
@@ -74,7 +74,7 @@ var _i = document.getElementsByClassName("introduction")[0];
     //Color toggler
     var toggler = document.getElementById('toggler');
     toggler.addEventListener('click', toggleColor);
-    var colors = ['#75b5aa', '#D2691E', '#556B2F', '#9932CC', '#3b5a77', '#191970', '#808000', '#6B8E23', '#4682B4', '#0c253f'];
+    var colors = ['#101010', '#FF6600', '#75b5aa', '#D2691E', '#556B2F', '#9932CC', '#3b5a77', '#191970', '#808000', '#6B8E23', '#4682B4', '#0c253f'];
 
     function toggleColor(){
       var leftPanel = document.getElementsByClassName('left-panel')[0];
