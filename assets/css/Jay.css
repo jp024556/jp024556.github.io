@@ -161,10 +161,10 @@
       color: #fff;
       border: 3px solid #ff6600;
     }
-    .donate-icon{
+    .download-icon{
       margin-top: 40px;
     }
-    .donation a{
+    .resume a{
       text-decoration: none;
       background: #75b5aa;
       color: #fff;
@@ -173,7 +173,7 @@
       border: 3px solid #fff;
       font-size: 30px;
     }
-    .donation a:hover{
+    .resume a:hover{
       background: #75b5aa;
       color: #fff;
       border: 3px solid green;
