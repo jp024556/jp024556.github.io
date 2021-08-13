@@ -12,6 +12,7 @@ var _i = document.getElementsByClassName("introduction")[0];
       x.pop();
       x.push(e);
       _i.style.display = "block";
+      _i.scrollIntoView();
        // get all 'li' elements
       var a = document.getElementsByTagName('a');
       // loop through all 'a' elements
@@ -28,6 +29,7 @@ var _i = document.getElementsByClassName("introduction")[0];
       x.pop();
       x.push(e);
       _p.style.display = "block";
+      _p.scrollIntoView();
       // get all 'li' elements
       var a = document.getElementsByTagName('a');
       // loop through all 'a' elements
@@ -44,6 +46,7 @@ var _i = document.getElementsByClassName("introduction")[0];
       x.pop();
       x.push(e);
       _c.style.display = "block";
+      _c.scrollIntoView();
       // get all 'li' elements
       var a = document.getElementsByTagName('a');
       // loop through all 'a' elements
@@ -60,6 +63,7 @@ var _i = document.getElementsByClassName("introduction")[0];
       x.pop();
       x.push(e);
       _d.style.display = "block";
+      _d.scrollIntoView();
       // get all 'li' elements
       var a = document.getElementsByTagName('a');
       // loop through all 'a' elements
