@@ -114,8 +114,8 @@
       margin-right: auto;
     }
     .right-panel .intro p{
-      font-size: 25px;
-      color: grey;
+      font-size: 1.2rem;
+      color: #24292F;
       text-align: center;
     }
     .right-panel ol li{
@@ -198,4 +198,10 @@
     }
     ::-webkit-scrollbar-thumb:hover {
         background: #5f9ea0;
+    }
+    .nowrap{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: 600;
     }
