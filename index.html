@@ -2,87 +2,177 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="author" content="Jay" />
-  <meta name="description" content="Hey there, this is my personal website. I'm a Software Developer by profession, if you're interested in my work, you can have a look at my opensource projects here." />
+  <meta name="author" content="Jay Prakash" />
+  <meta name="description" content="Jay Prakash – Full Stack Software Developer Portfolio" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#24292F">
-  <title>Jay Prakash - Software Developer</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="assets/css/Jay.css?v=1.0.2" />
+  <title>Jay Prakash · Software Developer</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/Jay.css" />
 </head>
+
 <body>
-  <div class="main-container">
-    <div class="left-panel">
-      <h1 class="title"><a href="/">Jay Prakash</a></h1>
-      <p class="lead">Software Developer</p>
-      <ul>
-        <li><a class="active" onclick="showIntro('introduction', this)">Introduction</a></li>
-        <li><a onclick="showProjects('projects', this)">Projects</a></li>
-        <li><a onclick="showContact('contact', this)">Contact</a></li>
-        <li><a onclick="showResume('resume', this)">Resume</a></li>
-      </ul>
-      <ul class="social">
-        <li>
-          <a href="mailto:jp024556@gmail.com" title="E-mail me"><i class="fa fa-fw fa-at"></i></a>
-          <a href="https://github.com/jp024556" title="Jay on GitHub"><i class="fa fa-fw fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/jay--/" title="Jay Prakash on LinkedIn"><i class="fa fa-fw fa-linkedin"></i></a>
-           <a href="https://twitter.com/jp024556" title="Follow me on Twitter"><i class="fa fa-fw fa-twitter"></i></a>
-          <a href="javascript:;" title="I wonder what this does ?" id="toggler"><i class="fa fa-fw fa-question"></i></a>
-        </li>
-      </ul>
-      <p class="credits">
-        Copyright <i class="fa fa-copyright"></i> 2021 | Jay Prakash
+
+<header class="header">
+  <div class="container">
+    <div class="hero">
+      <img src="https://avatars.githubusercontent.com/u/35718319?v=4" alt="Jay Prakash">
+      <h1>Jay Prakash</h1>
+      <p class="subtitle">Software Developer</p>
+      <p class="tagline">
+        Full Stack developer with experience in HTML, CSS, JavaScript, PHP, MySQL,
+        Java, Python, Angular, React & API development.
       </p>
-    </div>
-    <div class="right-panel">
-      <!-- Introduction -->
-      <div class="introduction">
-        <div class="intro-img">
-          <img src="https://avatars.githubusercontent.com/u/35718319?v=4" alt="myImage">
-        </div>
-        <div class="intro">
-          <p>Full Stack developer having skills in HTML5 | CSS3 | Javascript | PHP | MySQL | Java | Python | Angular | React | jQuery | API Development | Efficient Cache System | Optimising high traffic website</p>
-          <p class="nowrap">========== (°_°) ==========</p>
-          <p>When I’m not at a computer, I enjoy travelling, playing basketball or reading books. You can usually find me hanging out with my friends.</p>
-        </div>
+
+      <div class="actions">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#resume" class="btn outline">Download Resume</a>
       </div>
-      <!-- Project Details -->
-      <div class="projects">
-        <h3>Projects:</h3>
-        <ol>
-          <li><a href="https://github.com/jp024556/geeky" target="_blank">Geeky MVC Framework(PHP)</a></li>
-          <li><a href="https://github.com/jp024556/JParser" target="_blank">JParser</a></li>
-          <li><a href="https://github.com/jp024556/Subtitle-Translater" target="_blank">Subtitle Translater</a></li>
-          <li><a href="https://github.com/jp024556/File-Translater" target="_blank">File Translater</a></li>
-          <li><a href="https://github.com/jp024556/Subtitle-Translator-And-Editor" target="_blank">Subtitle Translator & Editor</a></li>
-          <li><a href="https://github.com/jp024556/js-binder" target="_blank">JSBinder - A lightweight two-way binding library</a></li>
-        </ol>
-      </div>
-      <!-- Contact -->
-      <div class="contact">
-        <h3>Feel free to contact me:</h3>
-        <p>Send me your regards to: <code>jp024556@gmail.com</code></p>
-        <h3>I am also available on:</h3>
-        <ul class="social-contact">
-        <li>
-          <a href="https://github.com/jp024556" title="Follow me on GitHub"><i class="fa fa-fw fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/jay-prakash-946a0b157/" title="Follow me on LinkedIn"><i class="fa fa-fw fa-linkedin"></i></a>
-          <a href="https://facebook.com/jp024556" title="Follow me on FB"><i class="fa fa-fw fa-facebook"></i></a>
-        </li>
-      </ul>
-      </div>
-      <!-- Donate -->
-      <div class="resume">
-        <h3>Resume</h3>
-        <p>Interested in my work, please have a look at my resume below.</p>
-        <p class="download-icon"><a href="https://raw.githubusercontent.com/jp024556/jp024556.github.io/master/assets/Jay_Resume.docx" title="Download my resume"><i class="fa fa-angle-double-down"></i> Download My Resume</a></p>
+
+      <div class="socials">
+        <a href="mailto:jp024556@gmail.com"><i class="fa fa-at"></i></a>
+        <a href="https://github.com/jp024556"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jay--/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://twitter.com/twt_withjay"><i class="fa fa-twitter"></i></a>
       </div>
     </div>
   </div>
-<!-- JS -->
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-<script src="assets/js/Jay.js?v=1.0.1"></script>
+</header>
+
+<main class="container">
+
+  <!-- ABOUT -->
+  <section class="section about">
+    <h2>About Me</h2>
+
+    <p class="about-lead">
+      I’m a <strong>Full Stack Software Developer</strong> who enjoys building
+      scalable, high-performance web applications.
+    </p>
+
+    <p class="about-body">
+      I work across the stack using HTML, CSS, JavaScript, PHP, MySQL, Java, Python,
+      Angular, React, and API-driven architectures. I enjoy solving performance
+      challenges and optimizing systems that handle real-world traffic.
+    </p>
+
+    <div class="divider">
+      <span></span>
+      <i class="fa fa-code"></i>
+      <span></span>
+    </div>
+
+    <p class="about-body muted">
+      Outside of work, I enjoy travelling, playing basketball, and reading books.
+      You’ll usually find me spending time with friends or exploring new places.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+      <a href="https://github.com/jp024556/geeky" target="_blank" class="project-card">
+        <div class="project-header">
+          <i class="fa fa-cubes"></i>
+          <h3>Geeky MVC Framework</h3>
+        </div>
+        <p class="project-meta">PHP · MVC · Framework</p>
+      </a>
+
+      <a href="https://github.com/jp024556/JParser" target="_blank" class="project-card">
+        <div class="project-header">
+          <i class="fa fa-code"></i>
+          <h3>JParser</h3>
+        </div>
+        <p class="project-meta">Parser · Core Java</p>
+      </a>
+
+      <a href="https://github.com/jp024556/Subtitle-Translater" target="_blank" class="project-card">
+        <div class="project-header">
+          <i class="fa fa-language"></i>
+          <h3>Subtitle Translator</h3>
+        </div>
+        <p class="project-meta">Translation · Automation</p>
+      </a>
+
+      <a href="https://github.com/jp024556/File-Translater" target="_blank" class="project-card">
+        <div class="project-header">
+          <i class="fa fa-file-text"></i>
+          <h3>File Translator</h3>
+        </div>
+        <p class="project-meta">File Processing</p>
+      </a>
+
+      <a href="https://github.com/jp024556/Subtitle-Translator-And-Editor" target="_blank" class="project-card">
+        <div class="project-header">
+          <i class="fa fa-pencil-square-o"></i>
+          <h3>Subtitle Editor</h3>
+        </div>
+        <p class="project-meta">Editor · Translation</p>
+      </a>
+
+      <a href="https://github.com/jp024556/js-binder" target="_blank" class="project-card">
+        <div class="project-header">
+          <i class="fa fa-random"></i>
+          <h3>JSBinder</h3>
+        </div>
+        <p class="project-meta">JavaScript · Two-way Binding</p>
+      </a>
+
+      <!-- OTHER PROJECTS -->
+      <a href="https://github.com/jp024556?tab=repositories"
+         target="_blank"
+         class="project-card more-projects">
+        <div class="project-header">
+          <i class="fa fa-github"></i>
+          <h3>Other Projects</h3>
+        </div>
+        <p class="project-meta">
+          Explore more open-source projects and experiments on GitHub
+        </p>
+        <span class="project-cta">View all repositories →</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Feel free to reach out at <code>jp024556@gmail.com</code></p>
+
+    <div class="contact-socials">
+      <a href="https://github.com/jp024556"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/jay--/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://facebook.com/fb_withjay"><i class="fa fa-facebook"></i></a>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <p>Interested in my work? Download my resume below.</p>
+
+    <a class="btn primary"
+       href="https://raw.githubusercontent.com/jp024556/jp024556.github.io/master/assets/Jay_Resume.docx">
+      <i class="fa fa-download"></i> Download Resume
+    </a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  © 2025 Jay Prakash
+</footer>
+
 </body>
 </html>
